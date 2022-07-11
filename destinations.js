@@ -6,7 +6,7 @@ const baseURL = `http://localhost:5500/api/destinations`
 const locationsCallback = ({ data: destinations }) => displayDestinations(destinations)
 const errCallback = err => console.log(err.response.data)
 
-const getAllDestinations = () => axios.get(baseURL).then(locationsCallback).catch(errCallback)
+const getAllDestinations = () => {axios.get(baseURL).then(locationsCallback).catch(errCallback)}
 
 const createDestination = body => axios.post(baseURL, body).then(locationsCallback).catch(errCallback)
 
@@ -33,7 +33,7 @@ function createDestinationCard(destination) {
     const destinationCard = document.createElement('div')
     destinationCard.classList.add('destination-card')
 
-    destinationCard.innerHTML = `<img alt='destination cover' src=${destination.imageURL} class="destination-cover/>
+    destinationCard.innerHTML = `<img alt='destination cover' src=${destination.imageURL} class="destination-cover"/>
     <p class="destination-title">${destination.title}</p>
     <button onclick="deleteDestination(${destination.id})">delete</button>
     `
@@ -48,6 +48,6 @@ function displayDestinations(arr) {
     }
 }
 
-form.addEventListener('submit', submitHandler)
+// form.addEventListener('submit', submitHandler)
 
 getAllDestinations()

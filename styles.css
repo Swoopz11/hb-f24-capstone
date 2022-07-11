@@ -88,9 +88,76 @@ main {
     justify-content: center;
 }
 
+/* The Location */
+
+#destination-explanation {
+    background-color: #BEE9E8;
+    border-radius: 12px;
+    position: absolute;
+    width: 1106px;
+    height: 193px;
+    left: 265px;
+    top: 150px;
+    /* width: 55pc;
+    height: 7pc;
+    left: 15pc;
+    top: 1pc; */
+
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
 #locations-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.destination-cover {
+    width: 200px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.destination-card {
+    background-color: #BEE9E8;
+    width: 200px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20pc;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.destination-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+form {
+    background-color: #BEE9E8;
+    
+    position: absolute;
+    width: px;
+    height: 157px;
+    left: 1000px;
+    top: 168px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
 }

@@ -14,5 +14,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swoopz11/hb-f24-capstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Swoopz11/hb-f24-capstone/issues"
+  },
+  "homepage": "https://github.com/Swoopz11/hb-f24-capstone#readme",
   "description": ""
 }

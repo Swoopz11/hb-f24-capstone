@@ -2,7 +2,7 @@ const destinations = require('./location.json')
 let globalId = 4
 
 module.exports = {
-    getDestinations: (req, res) => res.status(200).send(destinations),
+    getDestinations: (req, res) => {res.status(200).send(destinations)},
 
     deleteDestination: (req, res) => {
         let index = destinations.findIndex(elem => elem.id === +req.params.id)
