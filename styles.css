@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative; 
+    background: #F4EDED;
+}
+
+header {
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: #F4EDED;
+    background-color: #BA1F33;
+    z-index: 5;
+}
+
+#pic{
+    position: absolute;
+    width: 151px;
+    height: 84px;
+    left: 17px;
+    top: 7px;
+    border-radius: 12px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 150px;
+    height: 100pc;
+    left: 0px;
+    top: 100px;
+
+    background: #000000;
+}
+
+#homeLink {
+    text-decoration: none;
+    position: absolute;
+    width: 117px;
+    height: 94px;
+    left: 30px;
+    top: 203px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #F4EDED;
+}
+
+#dateLink {
+    text-decoration: none;
+    position: absolute;
+    width: 131px;
+    height: 94px;
+    left: 30px;
+    top: 297px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #F4EDED;
+}
+
+#waitLink {
+    text-decoration: none;
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 30px;
+    top: 420px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #F4EDED;
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+}
+
+#locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
