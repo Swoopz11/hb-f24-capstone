@@ -1,5 +1,5 @@
 const locationsContainer = document.getElementById('locations-container')
-// const form = document.getElementById('form')
+const form = document.getElementById('form')
 
 const baseURL = `http://localhost:5500/api/destinations`
 

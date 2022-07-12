@@ -6,7 +6,7 @@ module.exports = {
 
     deleteDestination: (req, res) => {
         let index = destinations.findIndex(elem => elem.id === +req.params.id)
-        movies.splice(index, 1)
+        destinations.splice(index, 1)
         res.status(200).send(destinations)
     },
 

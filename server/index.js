@@ -25,12 +25,12 @@ const {
 // Endpoints
 
 app.get(`/api/destinations`, getDestinations)
-app.get(`/api/destinations/:id`, deleteDestination)
-app.get(`/api/destinations`, createDestination)
+app.delete(`/api/destinations/:id`, deleteDestination)
+app.post(`/api/destinations`, createDestination)
 
 app.get(`/api/dates`, getWaitlist)
-app.get(`/api/dates/:id`, addToWaitlist)
-app.get(`/api/dates`, removeFromWaitlist)
+app.post(`/api/dates/:id`, addToWaitlist)
+app.delete(`/api/dates`, removeFromWaitlist)
 
 // ----
 
