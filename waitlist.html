@@ -15,8 +15,30 @@
     </div>
     <header>
         <h1>The Waitlist</h1>
-        <img id="pic" src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/285647243_1396819667486512_3248131012258744198_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vDen4owByCcAX_qcZDX&_nc_oc=AQnwuoIn75Ui_mShIpnSDzyHNpTaoVOOUBc7eRLN09uF5BPVtkjRoZDd42JJ0KLakCg&_nc_ht=scontent-lax3-1.xx&oh=00_AT_LnouHW3ssjvvaIksCbNa6xuPR-ZNOoiasJ6WYgsokKg&oe=62CD1820" alt="Houston pic">
+        <!-- <img id="pic" src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/285647243_1396819667486512_3248131012258744198_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vDen4owByCcAX_qcZDX&_nc_oc=AQnwuoIn75Ui_mShIpnSDzyHNpTaoVOOUBc7eRLN09uF5BPVtkjRoZDd42JJ0KLakCg&_nc_ht=scontent-lax3-1.xx&oh=00_AT_LnouHW3ssjvvaIksCbNa6xuPR-ZNOoiasJ6WYgsokKg&oe=62CD1820" alt="Houston pic"> -->
     </header>
     
+    <main>
+    <p id="explanation">
+        Have you decided that you are interested in dating the one and only Houston? Well, get in line. Literally. You may add yourself to the waiting list here. As you can see there are a number of eligible bachelorettes in waiting. Now I know what you are thinking; "That's quite the list, there is no way I'll ever find my self at the top." Well when there is a will, there is a way, and I have provided that way in the form of the little delete button you may find underneath the rest of the potential dates. Claw your way to the top, but be weary, others may remove you from the list just as fast. Good luck, may the best candidate emerge victorious, and have fun on your date with Houston!
+    </p>
+    
+        <form>
+            <input 
+                type='text'
+                id="name"
+                placeholder="Add a name!"/>
+            <input 
+                type='text'
+                id="img"
+                placeholder='Paste an image URL'/>
+                <button id="addBtn">add to waitlist</button>
+        </form>
+            
+        <section id="dates-container"></section>
+
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="wait.js"></script>
 </body>
 </html>

@@ -29,8 +29,8 @@ app.delete(`/api/destinations/:id`, deleteDestination)
 app.post(`/api/destinations`, createDestination)
 
 app.get(`/api/dates`, getWaitlist)
-app.post(`/api/dates/:id`, addToWaitlist)
-app.delete(`/api/dates`, removeFromWaitlist)
+app.post(`/api/dates`, addToWaitlist)
+app.delete(`/api/dates/:id`, removeFromWaitlist)
 
 // ----
 
