@@ -1,5 +1,5 @@
 const locationsContainer = document.getElementById('locations-container')
-const form = document.getElementById('form')
+const form = document.querySelector('form')
 
 const baseURL = `http://localhost:5500/api/destinations`
 
@@ -19,7 +19,7 @@ function submitHandler(e) {
     let imageURL = document.querySelector('#img')
 
     let bodyObj = {
-        title: title.ariaValueMax,
+        title: title.value,
         imageURL: imageURL.value
     }
 
@@ -48,6 +48,6 @@ function displayDestinations(arr) {
     }
 }
 
-// form.addEventListener('submit', submitHandler)
+form.addEventListener('submit', submitHandler)
 
 getAllDestinations()

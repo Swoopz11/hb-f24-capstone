@@ -1,6 +1,22 @@
 [
     {
         "id": 1,
-        "Name": ""
+        "name": "The entire lineup of ABC's season 26 'The Bachelor' Candidates",
+        "imageURL": "https://ihategreenbeans.com/wp-content/uploads/2018/02/Bachelor-Arie-Recap.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Wendy Peffercorn",
+        "imageURL": "https://i.ytimg.com/vi/w4jFvWQ_IGc/maxresdefault.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lola Bunny",
+        "imageURL": "https://static.wikia.nocookie.net/looneytunes/images/e/ea/Lt_lola.jpg/revision/latest?cb=20210607125434"
+    },
+    {
+        "id": 4,
+        "name": "Stacy's Mom",
+        "imageURL": "https://images2.vudu.com/background/177284-576a.jpg"
     }
 ]

@@ -1,4 +1,5 @@
 const dates = require('./list.json')
+let globalId = 5
 
 module.exports = {
     getWaitlist: (req, res) => res.status(200).send(dates),
@@ -10,6 +11,14 @@ module.exports = {
     },
 
     addToWaitlist: (req, res) => {
-        // let { title}
+        let { name, imageURL } = req.body
+        let newDate = {
+            id: globalId,
+            name,
+            imageURL
+        }
+        dates.push(newDate)
+        res.status(200).send(dates)
+        globalId++
     }
 }

@@ -1,5 +1,5 @@
 const destinations = require('./location.json')
-let globalId = 4
+let globalId = 5
 
 module.exports = {
     getDestinations: (req, res) => {res.status(200).send(destinations)},
